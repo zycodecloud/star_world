@@ -2,7 +2,7 @@
 title: markdown语法
 date: 2023-12-21 22:07:04
 categories:
- - 编程
+ - Markdown
 ---
 > 刚开始学习markdown语法，记录一下，忘了可以回来看，还有更多语法也会补充
 

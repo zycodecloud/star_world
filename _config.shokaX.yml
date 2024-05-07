@@ -1,7 +1,7 @@
 alternate: STAR🌟WORLD # 站点大标题
 
 statics: "/" # 静态文件根目录
-assets: "assets"
+assets: "assets/"
 css: "css"
 js: "js"
 
@@ -219,7 +219,7 @@ summary:
 # secend value is the name of Font icon.
 social:
   QQ: https://res.abeim.cn/api/qq/?qq=1770551574 || qq || "#8b92d5"
-  wechat: https://i.imgs.ovh/2023/12/18/68VQo.jpeg || weixin || "#7bb32e"
+  wechat: https://github.com/zycodecloud/picx-images-hosting/raw/master/微信图片_20240417194726.70a4lnf2rx.webp || weixin || "#7bb32e"
   github: https://github.com/zycodecloud || github || "#443fae"
   #github: https://github.com/name || github || "#191717"
   #google: https://plus.google.com/yourname || google
@@ -241,7 +241,7 @@ sidebar:
   position: right
   # position: right
   # Replace the default avatar image under <root>/source/_data/assets/ and set the url here.
-  avatar: http://q.qlogo.cn/headimg_dl?dst_uin=1770551574&spec=640&img_type=jpg
+  avatar: headimg_dl.jfif
 
 widgets:
   # if true, will show random posts
