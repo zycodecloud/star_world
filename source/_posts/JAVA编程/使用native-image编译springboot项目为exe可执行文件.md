@@ -8,62 +8,62 @@ categories:
 
 1. 下载并安装 [GraalVM JDK](https://github.com/graalvm/graalvm-ce-builds/releases/tag/vm-22.3.1)
 
-![](https://github.com/zycodecloud/picx-images-hosting/raw/master/image.7zq8reh29o.png)
+![](https://t.tutu.to/img/ovfg)
 
 1. 设置环境变量 `JAVA_HOME` 为 GraalVM JDK 的安装路径
 2. 添加 GraalVM JDK 的 bin 目录到 PATH 环境变量
 3. 运行 `java -version` 命令，检查是否成功安装和配置 GraalVM JDK
 
-![](https://github.com/zycodecloud/picx-images-hosting/raw/master/image.99t5xq1l4t.webp)
+![](https://t.tutu.to/img/V1gd)
 
 ### 安装 native-image
 
 1. 打开cmd。输入`gu install native-image` (需要科学上网，如果下载不了，建议下载GraalVM JDK 下的jar包进行导入)
 2. 输入`gu list`查看是否安装成功
 
-![](https://github.com/zycodecloud/picx-images-hosting/raw/master/image.54xklm74nl.webp)
+![](https://t.tutu.to/img/VgLn)
 
 ### 安装 Visual studio
 
 1. 下载并安装 [Visual Studio](https://visualstudio.microsoft.com/zh-hans/)
-2. 选择Visual Studio Community 2022![](https://github.com/zycodecloud/picx-images-hosting/raw/master/image.5q787x2ly5.webp)
+2. 选择Visual Studio Community 2022![](https://t.tutu.to/img/Vw9R)
 
 1. 下载完成后打开安装文件
 
-![](https://github.com/zycodecloud/picx-images-hosting/raw/master/image.64dnyscd9l.webp)
+![](https://t.tutu.to/img/VTqG)
 
 1. 工作负载，选择使用C++桌面开发
 
-![](https://github.com/zycodecloud/picx-images-hosting/raw/master/image.9dcrvg0s4x.webp)
+![](https://t.tutu.to/img/o8Ym)
 
 1. 单个组件，搜索msvc，选择2-8，搜索win，选择win10--11 SDK
 
-![](https://github.com/zycodecloud/picx-images-hosting/raw/master/image.2yy5zuk7lp.webp)
+![](https://t.tutu.to/img/VQwo)
 
 1. 语言包，选择英文
 
-![](https://github.com/zycodecloud/picx-images-hosting/raw/master/image.6wqjgiwbpn.webp)
+![](https://t.tutu.to/img/V4QJ)
 
 1. 点击安装
 
 ### 打包springboot为.exe文件
 1. 新建spring boot项目，导入`Graalvm Native`
 
-![](https://github.com/zycodecloud/picx-images-hosting/raw/master/image.32hrxkfxyy.webp)
+![](https://t.tutu.to/img/oUNX)
 
 1. 勾选配置文件中的`native`，执行`clean`，`native:compile`
 
-![](https://github.com/zycodecloud/picx-images-hosting/raw/master/image.361dvab18l.webp)
+![](https://t.tutu.to/img/VymH)
 
 ### 成功导出exe文件
 
-![](https://github.com/zycodecloud/picx-images-hosting/raw/master/image.7ljt0kcfg7.webp)
+![](https://t.tutu.to/img/Vjge)
 
-![](https://github.com/zycodecloud/picx-images-hosting/raw/master/image.3uunfbo6jg.webp)
+![](https://t.tutu.to/img/VtOi)
 
 启动速度也是非常之快
 
-![](https://github.com/zycodecloud/picx-images-hosting/raw/master/image.51dynxdtj9.webp)
+![](https://t.tutu.to/img/o0Qj)
 
 
 

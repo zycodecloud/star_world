@@ -6,20 +6,22 @@ categories:
 ---
 #### OpenAI  [ChatGPT 3.5](https://chat.openai.com/auth/login)
 
-![](https://github.com/zycodecloud/picx-images-hosting/raw/master/image.1lbmvuguoy.webp)
+![](https://t.tutu.to/img/V3Ew)
 
 #### 微软  [Copilot](https://copilot.microsoft.com/ )
 
-![](https://github.com/zycodecloud/picx-images-hosting/raw/master/image.7zq8rfzkd2.webp)
+![](https://t.tutu.to/img/od8k)
 
 #### 谷歌  [Gemini](https://gemini.google.com/app )
 
-![](https://github.com/zycodecloud/picx-images-hosting/raw/master/image.26lai5i755.webp)
+![](https://t.tutu.to/img/okSK)
+
+
 
 #### [Kimi](https://kimi.moonshot.cn/ )
 
-![](https://github.com/zycodecloud/picx-images-hosting/raw/master/image.7p3eyalaga.webp)
+![](https://t.tutu.to/img/VYLz)
 
 #### [Coze](https://www.coze.com/)
 
-![](https://github.com/zycodecloud/picx-images-hosting/raw/master/image.9rj7mcrqhy.webp)
+![](https://t.tutu.to/img/omHM)

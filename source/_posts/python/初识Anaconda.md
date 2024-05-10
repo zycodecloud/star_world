@@ -4,11 +4,11 @@ date: 2024-05-07 21:09:42
 categories:  
   - python
 ---
-## 1.安装
+## 安装
 
 [Anaconda官网](https://www.anaconda.com/download/success) 下载对应平台的安装包
 
-## 2.打开工具
+## 打开工具
 
 - 在开始菜单中选择`Anaconda prompt`
 - 输入代码，打开控制台
@@ -17,7 +17,7 @@ categories:
 jupyter notebook
 ```
 
-## 3.浏览器自动化驱动
+## 浏览器自动化驱动
 
 ### Selenium
 
@@ -35,13 +35,13 @@ pip install selenium
 !pip install selenium
 ```
 
-## 4.安装chromedriver
+## 安装chromedriver
 
 1.  [chromedriver安装](https://chromedriver.storage.googleapis.com/index.html)
 2.  下载对应谷歌浏览器版本 32/64位
 3.  复制到notebook目录 /  添加到系统变量中
 
-## 5.测试环境
+## 测试环境
 
 ```python
 # 导入模块
@@ -54,7 +54,7 @@ driver.get("http://www.baidu.com")
 driver.close()
 ```
 
-## 6.Selenium常用API
+## Selenium常用API
 
 ### 返回
 
@@ -91,7 +91,7 @@ element2.click()
 resource = driver.page_srouce
 ```
 
-## 7.提取cookie到txt
+## 提取cookie到txt
 
 ```python
 # 获取所有cookie  getcookie("xxx")=获取单个cookie
@@ -110,7 +110,7 @@ with open("cookie.txt"，“w” , encoding="utf-8")
 file.write(cookies_str)
 ```
 
-## 8.读取存储在文件中的cookie并登录
+## 读取存储在文件中的cookie并登录
 
 ```python
 # 导入函数
@@ -163,7 +163,7 @@ add??
 shift+tab
 ```
 
-## 9.魔法命令
+## 魔法命令
 
 ```python
 # 执行外部python文件
@@ -186,9 +186,9 @@ shift+tab
 !pip install xxx
 ```
 
-## 10.初识numpy
+## 初识numpy
 
-### 1.安装
+### 安装
 
 ```python
 # Anaconda自带numpy
@@ -201,7 +201,7 @@ import matplotlib.pyplot as plt
 np.__version__
 ```
 
-### 2.使用
+### 使用
 
 ```python
 # 读取图片的数据
