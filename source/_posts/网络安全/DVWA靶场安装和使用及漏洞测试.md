@@ -670,8 +670,6 @@ Ncat:Listening on 0.0.0.0:6666
 
 #### Burp Suite
 
-#### burp
-
 #### zenmap：端口检测工具
 
 #### gorailgun：端口识别工具
@@ -689,14 +687,6 @@ Ncat:Listening on 0.0.0.0:6666
 ```sh
 chcp 65001
 ```
-
-
-
-### Fuzz
-
-#### BurpSuite：域名爆破
-
-#### 御剑：域名爆破
 
 ### cobaltstrike 
 

@@ -4,8 +4,8 @@ date: 2023-12-21 23:33:12
 categories:
   - bug
 ---
-
 # 报错信息：
+
 ````bash
 PS D:\idea_project\star_world\source\_posts> hexo g
 INFO  Validating config
@@ -37,3 +37,39 @@ PS D:\idea_project\star_world> hexo g
 ````
 
 - 切换到**shokaX根目录**即可解决此问题
+
+# 报错信息
+
+```bash
+PS D:\project\star_world> hexo new 创业目录
+hexo : 无法将“hexo”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试 一次。
+所在位置 行:1 字符: 1
++ hexo new 创业目录
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (hexo:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+```
+
+# 解决方案
+
+```bash
+PS D:\project\star_world> npm install -g hexo-cli
+```
+
+# 报错信息
+
+```bash
+hexo : 无法加载文件 C:\Users\zengyu\AppData\Roaming\npm\hexo.ps1，因为在此系统上禁止运行脚本。有关详细信息，请参阅 https:/go.m
+icrosoft.com/fwlink/?LinkID=135170 中的 about_Execution_Policies。
+所在位置 行:1 字符: 1
++ hexo new 创业目录
++ ~~~~
+    + CategoryInfo          : SecurityError: (:) []，PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+```
+
+# 解决方案
+
+```bash
+set-ExecutionPolicy RemoteSigned 
+```
